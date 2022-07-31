@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(233, 223, 205);
+}
+
+.container {
+    background-color: white;
+    display: flex;
+    max-width: 500px;
+    margin: 20vh auto;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    justify-content: center;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    padding:30px;
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+pre{
+    padding-left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+}
+
+p{
+    font-family: 'Heebo', sans-serif;
+    font-weight:600;
+    padding:10px 30px 10px 30px;
+    font-size: 14px;
+}
+
+.right{
+    width:120%;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 60px 20px 30px;
+    align-items: center;
+
+}
+
+.offer{
+    color:green;
+    font-weight: bolder;
+    font-size:28px
+}
+
+.actual{
+    text-decoration: line-through;
+}
+
+.but{
+    text-align: center;
+    margin-top:10px;
+    
+}
+
+.but input{
+    background-color:green;
+    padding:5px;
+    width:190px;
+    border-radius: 5px;
+    color:white;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
